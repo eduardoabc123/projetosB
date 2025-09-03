@@ -63,8 +63,8 @@ int main()
     densidade1 = populacao1 / area1;
     densidade2 = populacao2 / area2;
 
-    pibp1 = pib1 / populacao1;
-    pibp2 = pib2 / populacao2;
+    pibp1 = (pib1 * 1000000000) / populacao1;
+    pibp2 = (pib2 * 1000000000) / populacao2;
 
     
     // Exibe informações Digitadas da Carta 1
